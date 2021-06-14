@@ -1,0 +1,15 @@
+{
+  "name": "javascript.mocha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Mocha-Chai-Tests.js",
+  "scripts": {
+    "test": "mocha --ui tdd --reporter dot"
+  },
+  "author": "Suhas Achar",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.0.0"
+  }
+}

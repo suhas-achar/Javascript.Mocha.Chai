@@ -1,0 +1,23 @@
+
+npm install -g mocha (Have to install globally to run CLI command to execute )
+npm install --save-dev mocha
+npm install --save-dev chai
+
+---------------------------------------------------
+
+import the package:
+
+const { assert } = require('chai');
+//const chai = require('chai');
+//assert = chai.assert;
+
+---------------------------------------------------
+Run the tests
+For BDD: > mocha <testFile.js>
+For TDD: > mocha --ui tdd <testFile.js>
+
+---------------------------------------------------
+x
+
+https://semaphoreci.com/blog/cicd-pipeline
+https://semaphoreci.com/community/tutorials/getting-started-with-node-js-and-mocha
