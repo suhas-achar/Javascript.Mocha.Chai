@@ -3,6 +3,9 @@ npm install -g mocha (Have to install globally to run CLI command to execute )
 npm install --save-dev mocha
 npm install --save-dev chai
 
+npm install sinon
+//npm install sinon-chai //Not required
+
 ---------------------------------------------------
 
 import the package:
